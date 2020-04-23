@@ -1,0 +1,39 @@
+body{
+    background: url("../images/gym.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+    
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Permanent Marker', cursive;
+   opacity: 5;
+
+}
+div{
+    background-color:aliceblue;
+    width: 60%;
+    border-radius: 25px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0px;
+    opacity: 0.8;
+}
+button{
+    background-color:aqua;
+    color:blue;
+    padding:10px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+h1{
+    font-size: 2.5em;
+    padding-top: 0%;
+}
+p{
+    font-size: 1.3em;
+}
+i{
+    font-size: 2.5em;
+    color: black;
+}

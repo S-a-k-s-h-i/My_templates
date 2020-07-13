@@ -1,0 +1,19 @@
+#the-basics{
+    font-size: 30px;
+}
+
+#the-basics input{
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 8px solid cadetblue;
+    color: cadetblue;
+    font-weight: bold;
+}
+/*
+.tt-dataset .tt-dataset-states .tt-suggestion .tt-selectable{
+    margin-left: 50px;
+}
+*/
+.tt-dataset.tt-dataset-states {
+    margin-left: 50px;
+}

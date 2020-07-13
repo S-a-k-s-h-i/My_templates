@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/pass_generator_style.css">
+
+	<title>password_generator</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+        <form action="" name="passGen">
+            <input type="text" name="output" size='30' class='in'><br>
+            <input type="button" value="Generate Password" class="btn" onClick='populateForm(this.form.length.value)'><br>
+            <strong>Password Length:</strong>
+            <input type="text" name="length" size='3' value='6' class="len">
+        </form>
+	</div>
+    <script>
+       var keyList="abcdefghijklmnopqrstuvwxyz0123456789!@#$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var tmp="",i;
+
+function generatepass(plength){
+    tmp="";
+    for(i=0;i<plength;i++){
+       tmp+=keyList.charAt(Math.floor(Math.random()*keyList.length))
+    }
+    return tmp
+}
+function populateForm(enterLength){
+    document.passGen.output.value=generatepass(enterLength);
+}
+	</script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+	
+
+</body>
+
+</html>

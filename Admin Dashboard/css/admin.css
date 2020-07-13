@@ -1,0 +1,56 @@
+.body{
+   font-family: 'Exo 2', sans-serif;
+}
+.nav{
+    background-color: black;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #c2c3c5;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color:#c2c3c5;
+}
+li a:hover{
+    background-color:white;
+}
+.navbar-light .navbar-nav .righty{
+    float: right;
+}
+.navbar-light .navbar-toggler{
+    background-color:white;
+}
+.sidebar ul{
+    display: block;
+}
+.side{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.side a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+.side li a:hover{
+    background-color: gainsboro;
+}
+.main{
+    margin-top: 40px;
+}
+.placeholders{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.placeholder{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.placeholder img{
+    display: inline;
+    border-radius: 50%;
+}
